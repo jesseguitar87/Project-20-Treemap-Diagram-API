@@ -1,0 +1,45 @@
+body {
+  color: #555;
+  background-color: #fafafa;
+}
+h1 {
+  color: #555;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+svg {
+  background-color: white;
+  box-shadow: 5px 5px 10px #999
+}
+.chart {
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tile {
+  text {
+    overflow: hidden;
+  }
+  cursor: pointer;
+}
+.tile-text {
+  z-index: 42;
+}
+
+.data-tooltip {
+  background: rgba(0,0,0, 0.9);
+  border-radius: 4px;
+  color: white;
+  padding: 1em;
+  position: absolute;
+  p {
+    font-size: 12px;
+    margin: 0;
+    text-align: left;
+  }
+}
